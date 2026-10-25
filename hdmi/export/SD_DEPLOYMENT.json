@@ -1,0 +1,59 @@
+{
+  "verified": true,
+  "files": [
+    {
+      "source": "linux/build/image-hdmi.ub",
+      "destination": "image-hdmi.ub",
+      "address": "0x10000000",
+      "bytes": 5102480,
+      "sizehex": "0x4ddb90",
+      "crc32": "7872de49",
+      "sha256": "0beae4ef24c4d6745615ff98590a4200a9c7a5b676ad1e23b22fdcb8d60ca048"
+    },
+    {
+      "source": "linux/zynq-hdmi.dtb",
+      "destination": "zynq-hdmi.dtb",
+      "address": "0x104de000",
+      "bytes": 10108,
+      "sizehex": "0x277c",
+      "crc32": "dae7622e",
+      "sha256": "8c86ae1e754b9f585a75048d94f741ad5e6ad9a92171b71285500d173e178e31"
+    },
+    {
+      "source": "linux/build/modules-hdmi.tar.gz",
+      "destination": "linux-hdmi/modules-hdmi.tar.gz",
+      "address": "0x104e1000",
+      "bytes": 1146923,
+      "sizehex": "0x11802b",
+      "crc32": "8f0198be",
+      "sha256": "2c3b01346ad8bc32f0a00822dbe23bb5f60dcf9dcaa27c8393121f874aeb7c0b"
+    },
+    {
+      "source": "linux/build/fb_test",
+      "destination": "linux-hdmi/fb_test",
+      "address": "0x105fa000",
+      "bytes": 357572,
+      "sizehex": "0x574c4",
+      "crc32": "ca563bbd",
+      "sha256": "604c87fbabec0033d3ce68cb997d5a2c63306558df830427430e2fc69adbd102"
+    },
+    {
+      "source": "linux/build/boot-hdmi.scr",
+      "destination": "boot.scr",
+      "address": "0x10652000",
+      "bytes": 499,
+      "sizehex": "0x1f3",
+      "crc32": "44b682ee",
+      "sha256": "927df3363257f52f0e27556f316f95723d443b457d5ab7a6a5f3682d0249b81a"
+    },
+    {
+      "source": "export/BOOT_HDMI_LINUX.BIN",
+      "destination": "BOOT.BIN",
+      "address": "0x10653000",
+      "bytes": 5212848,
+      "sizehex": "0x4f8ab0",
+      "crc32": "13282e42",
+      "sha256": "f5360f59c1561e3b5f7caa6ae3f51225466ac23459b263de1df593bd34f26593"
+    }
+  ]
+}

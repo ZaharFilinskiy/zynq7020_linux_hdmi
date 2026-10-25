@@ -1,0 +1,9 @@
+/* Replace u-boot.elf with the ELF from YOUR matching Buildroot build.
+ * The bitstream must be present and loaded before FSBL hands off to U-Boot.
+ */
+the_ROM_image:
+{
+    [bootloader] fsbl_hdmi.elf
+    design_1_wrapper.bit
+    u-boot.elf
+}

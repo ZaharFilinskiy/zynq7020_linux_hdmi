@@ -1,0 +1,85 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Oct 25 12:06:31 2026
+| Host         : DESKTOP-22C40O7 running 64-bit major release  (build 9200)
+| Command      : report_ip_status
+------------------------------------------------------------------------------------
+
+IP Status Summary
+
+1. Project IP Status
+--------------------
+Your project uses 13 IP. Some of these IP may have undergone changes in this release of the software. Please review the recommended actions.
+
+More information on the Xilinx versioning policy is available at www.xilinx.com.
+
+Project IP Instances
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| Instance Name                   | Status     | Recommendation      | Change    | IP Name            | IP      | New Version   | New        | Original Part        |
+|                                 |            |                     | Log       |                    | Version |               | License    |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_gpio_0_0           | Up-to-date | No changes required |  *(1)     | AXI GPIO           | 2.0     | 2.0 (Rev. 20) | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 20)     |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_clocks_0          | Up-to-date | No changes required |  *(2)     | Clocking Wizard    | 6.0     | 6.0 (Rev. 2)  | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 2)      |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_enable_0          | Up-to-date | No changes required |  *(3)     | Constant           | 1.1     | 1.1 (Rev. 5)  | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 5)      |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_mem_0             | Up-to-date | No changes required |  *(4)     | AXI Interconnect   | 2.1     | 2.1 (Rev. 19) | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 19)     |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_pixel_reset_0     | Up-to-date | No changes required |  *(5)     | Processor System   | 5.0     | 5.0 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 13)     |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_source_0          | Up-to-date | No changes required | Change    | axis_hdmi_source_v | 1.0     | 1.0 (Rev. 1)  | Included   | xc7z020clg400-2      |
+|                                 |            |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                 |            |                     | available |                    | 1)      |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_stream_cdc_0      | Up-to-date | No changes required |  *(6)     | AXI4-Stream Clock  | 1.1     | 1.1 (Rev. 19) | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           | Converter          | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 19)     |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_tx_0              | Up-to-date | No changes required | Change    | RGB to DVI Video   | 1.4     | 1.4 (Rev. 10) | Included   | xc7z020clg400-2      |
+|                                 |            |                     | Log not   | Encoder (Source)   | (Rev.   |               |            |                      |
+|                                 |            |                     | available |                    | 10)     |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_vdma_0            | Up-to-date | No changes required |  *(7)     | AXI Video Direct   | 6.3     | 6.3 (Rev. 6)  | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           | Memory Access      | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 6)      |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_hdmi_video_0           | Up-to-date | No changes required | Change    | axis_hdmi_video_v1 | 1.0     | 1.0 (Rev. 1)  | Included   | xc7z020clg400-2      |
+|                                 |            |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                 |            |                     | available |                    | 1)      |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_proc_sys_reset_0_0     | Up-to-date | No changes required |  *(8)     | Processor System   | 5.0     | 5.0 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 13)     |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_processing_system7_0_0 | Up-to-date | No changes required |  *(9)     | ZYNQ7 Processing   | 5.5     | 5.5 (Rev. 6)  | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           | System             | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 6)      |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_ps7_0_axi_periph_0     | Up-to-date | No changes required |  *(10)    | AXI Interconnect   | 2.1     | 2.1 (Rev. 19) | Included   | xc7z020clg400-2      |
+|                                 |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                 |            |                     |           |                    | 19)     |               |            |                      |
++---------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+*(1) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_gpio_v2_0/doc/axi_gpio_v2_0_changelog.txt
+*(2) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/clk_wiz_v6_0/doc/clk_wiz_v6_0_changelog.txt
+*(3) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/xlconstant_v1_1/doc/xlconstant_v1_1_changelog.txt
+*(4) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_interconnect_v2_1/doc/axi_interconnect_v2_1_changelog.txt
+*(5) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(6) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_clock_converter_v1_1/doc/axis_clock_converter_v1_1_changelog.txt
+*(7) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_vdma_v6_3/doc/axi_vdma_v6_3_changelog.txt
+*(8) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(9) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/processing_system7_v5_5/doc/processing_system7_v5_5_changelog.txt
+*(10) c:/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_interconnect_v2_1/doc/axi_interconnect_v2_1_changelog.txt
+
+

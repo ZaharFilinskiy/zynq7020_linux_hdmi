@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+    [bootloader] fsbl_hdmi.elf
+    design_1_wrapper.bit
+    [load=0x04000000, startup=0x04000000] original-u-boot.bin
+}

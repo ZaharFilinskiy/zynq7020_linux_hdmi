@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.bit -text
+*.bin -text
+*.BIN -text
+*.elf -text
+*.hdf -text
+*.hwdef -text
+*.ub -text
+*.dtb -text
+*.gz -text
+*.pdf -text
+*.docx -text
+zImage -text
+*.scr -text

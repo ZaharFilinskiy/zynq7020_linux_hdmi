@@ -1,6 +1,6 @@
 # Autonomous bitstream for Vivado Hardware Manager; no SDK/FSBL required.
 set root [file normalize [file join [file dirname [info script]] ../..]]
-set out [file join $root hdmi/export/vivado_test]
+set out [file join $root hdmi/export/pl_only]
 file mkdir $out
 open_project [file join $root zynq_linux.xpr]
 set_property ip_repo_paths [list [file join $root hdmi/ip_repo]] [current_project]

@@ -1,0 +1,17 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Oct 25 12:38:13 2026
+| Host         : DESKTOP-22C40O7 running 64-bit major release  (build 9200)
+| Command      : report_cdc -file C:/all/camera_zynq/git_work/pl_project/hdmi/export/pl_only/cdc.rpt
+| Design       : design_1_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.11 2014-09-11
+-----------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock      Destination Clock                CDC Type                 Exceptions  Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ----------------  -------------------------------  -----------------------  ----------  ---------  ----  ------  -------  ------------  
+Info      input port clock  clk_out1_design_1_hdmi_clocks_0  No Common Primary Clock  False Path          1     1       0        0             0  
+

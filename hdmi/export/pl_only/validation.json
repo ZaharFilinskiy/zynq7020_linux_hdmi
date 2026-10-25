@@ -1,0 +1,17 @@
+{
+  "variant": "standalone PL HDMI",
+  "device": "xc7z020clg400-2",
+  "test_pattern": 1,
+  "resolution": [
+    1280,
+    720
+  ],
+  "ps_instantiated": false,
+  "vdma_instantiated": false,
+  "setup_wns_ns": 8.702,
+  "hold_whs_ns": 0.121,
+  "simulation_pixel_clocks": 4950000,
+  "physical_programming_of_this_minimal_variant": false,
+  "source_archive_sha256": "704c9074a8174fc2ee9dd913fca5eddbfb69fda4614db574dd3b4cbaf21fef04",
+  "bitstream_sha256": "9f805f5018c06282d95e2afbe9b7dc908818d6dec41f4365da7f447ede994e81"
+}

@@ -1,0 +1,1 @@
+PASS: autonomous pattern, 4950000 pixel clocks, reset restart, backpressure and DMA bypass

@@ -64,3 +64,7 @@ Set-Location zynq_pl_hdmi_test
 - [zynq_linux.srcs](zynq_linux.srcs) — Block Design и wrapper.
 
 В репозитории сохранена лицензия [GNU GPL v3](LICENSE); сторонние компоненты, включая rgb2dvi, сохраняют свои лицензионные уведомления.
+
+## Участники
+
+[ZaharFilinskiy и Codex — участники проекта и их вклад](CONTRIBUTORS.md).
